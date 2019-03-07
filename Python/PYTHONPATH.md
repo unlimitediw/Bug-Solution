@@ -2,3 +2,5 @@
 * check current os environ: `print(os.environ['PYTHONPATH'])`
 * add path: `export PYTHONPATH=${PYTHONPATH}:path` or `sys.path.append('path')`
 * delete path: `sys.path.remove('path')
+* show packages `pip freeze`
+* show package info `pip show package`
