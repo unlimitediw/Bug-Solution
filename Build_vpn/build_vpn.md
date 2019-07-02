@@ -11,4 +11,4 @@ https://www.freecodecamp.org/news/how-you-can-use-openvpn-to-safely-access-priva
 ### shadowsocks:
 * https://blog.csdn.net/Da___Vinci/article/details/86629960
 * config ss.json file should be pure to avoid decode problem (no '\'', no '//' and so on)
-
+* 记住shadowsocks server端的server一定要写 0.0.0.0 client端还是写server的public ip
